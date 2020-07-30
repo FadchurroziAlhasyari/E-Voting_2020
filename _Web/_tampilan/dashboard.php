@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+
+    <title>DASHBOARD!</title>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <a class="navbar-brand" href="#">Selamat Datang Admin | <b>E-VOTING</b> </a>
+      <form class="form-inline my-2 my-lg-0 ml-auto">
+      </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row no-gutters mt-5">
+    <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+        <ul class="nav flex-column ml-3 mb-5">
+    <li class="nav-item">
+      <a class="nav-link active text-white" href="dashboard.php"><i class="fas fa-columns mr-2"></i>Dashboard </a><hr class="bg-secondary">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="kandidat.php"><i class="fas fa-clipboard mr-2"></i>Daftar Kandidat </a><hr class="bg-secondary">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="pemilih.php"><i class="fas fa-user-edit mr-2"></i>Daftar Pemilih </a><hr class="bg-secondary">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="vote.php"><i class="fas fa-vote-yea mr-2"></i>Hasil Vote </a><hr class="bg-secondary">
+    </li>
+     <li class="nav-item">
+      <a class="nav-link text-white" href="logout.php"><i class="fas fa-sign-out-alt mr-3"></i>Logout </a><hr class="bg-secondary">
+    </li>
+  </ul>
+    </div>
+    <div class="col-md-10 p-5 pt-2">
+      <h3><i class="fas fa-columns mr-2"> DASHBORD</i></h3><hr class="bg-secondary">
+
+      <div class="row text-white">
+        <div class="card bg-info ml-5" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-body-icon">
+              <i class="fas fa-user-edit mr-2"></i>
+            </div>
+            <h5 class="card-title">JUMLAH MAHASISWA BELUM MEMILIH</h5>
+              <div class="display-4">10</div>
+            <a href=""><p class="card-text text-white">Lihat Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
+        </div>
+    </div>
+        <div class="card bg-danger ml-5" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-body-icon">
+              <i class="fas fa-user-edit mr-2"></i>
+            </div>
+            <h5 class="card-title">JUMLAH MAHASISWA SUDAH MEMILIH</h5>
+              <div class="display-4">30</div>
+            <a href=""><p class="card-text text-white">Lihat Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
+          </div>
+      </div>
+          <div class="card bg-warning ml-5" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-body-icon">
+             <i class="fas fa-chart-line mr-2"></i> 
+            </div>
+            <h5 class="card-title">KANDIDAT TERPILIH NO.</h5>
+              <div class="display-4">1</div>
+            <a href=""><p class="card-text text-white">Lihat Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
+
+
+
+          </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="admin.js"></script>
+  </body>
+</html>
